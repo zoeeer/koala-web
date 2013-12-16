@@ -1,0 +1,94 @@
+﻿TODO:
+
+    實現 php 從 xml 中讀取內容
+    前端 content div
+    bg picture resize
+
+############################################################
+
+Security Issues
+  1. website safety
+  2. user data security
+
+    https, SSL
+    Web开发中需要了解的东西 http://coolshell.cn/articles/6043.html
+
+    驗證碼
+
+############################################################
+
+Contents
+    Database
+    XML
+    # plan: XML for contents, MySQL for data
+
+交互：
+    HTTP
+    input validation
+    new page after summit?
+    AJAX
+
+
+用戶留言/評論：
+
+    Timestamp
+    自動保存功能？
+    submit後，post前保存cookie？
+    disqus.com？似乎只有英文版
+    DB or XML？
+    
+    刪除自己的評論？
+
+    大量用戶同時請求 - 暫不考慮
+
+OAuth登錄：
+
+    cookies
+    數據加密？
+
+用戶註冊：
+
+    數據加密
+
+
+SEO:
+    sitemap.xml
+
+
+統計分析 http://www.google.com/analytics/
+
+####################  前端  ############################
+
+Header LOGO
+fonts
+
+content div
+
+bg image size and position
+footer bg color, or use shadow
+
+底部鏈接：(use CSS Sprites)
+
+    新浪微博
+    facebook
+    百度贴吧
+    seedmusic
+    虾米
+    豆瓣
+    腾讯微博
+    instagram
+    网易云音乐
+    youtube
+
+
+HOME
+BIOGRAPH
+NEWS
+EVENTS
+
+############################################################
+
+用戶量大的考慮：
+    關係型數據庫有何缺點
+    NoSQL
+    並發，Node.js
