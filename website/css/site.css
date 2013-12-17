@@ -24,7 +24,7 @@ html {
 }
 
 .container {
-	width: 80%;
+	width: 70%;
     height: 100%;
 	margin: 0 auto;
 	padding: 0 0 80px 0;    /* bottome padding for footer */
@@ -92,13 +92,18 @@ h1, #navigation {
  **************************************************/
 .content{
     padding-top: 20px;
-   padding-bottom: 80px; /*重要！给footer预留的空间*/  
+    padding-bottom: 80px; /*重要！给footer预留的空间*/
+    
+    width: 640px;
+    max-width: 100%;
+    float: left;
+    margin-right: 20px;
 }  
 
-.content p {
+.article {
     font-size: 0.8em;
+    background: rgba(255, 240, 240, 0.5);
 }
-
 /**************************************************
  ***   Footer   ***
  **************************************************/
@@ -120,6 +125,7 @@ h1, #navigation {
 
 .footer  a {
     color: white;
+    text-shadow: 1px 1px 1px black;}
 }
 
 .footer a:hover, a:focus {
