@@ -67,6 +67,18 @@ content div
 bg image size and position
 footer bg color, or use shadow
 
+!important
+Issue for MOBILE optimizition
+
+    detect user-agent
+    detect screen size of mobile device
+
+    if mobile, watch screen orientation
+        class="landscape" | "portrait"
+        write css associate with 2 orientations
+    JS only to change the class value
+
+
 底部鏈接：(use CSS Sprites)
 
     新浪微博
