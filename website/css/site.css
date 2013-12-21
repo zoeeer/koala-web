@@ -11,9 +11,9 @@ html {
     margin: 0;
     float: left;    /* without float there would be space on top */
     width: 100%;    /* ensure 100% width when floated */
-    min-width: 320px;
+    min-width: 760px;
 
-    background: #FFF6FF url('../pic/bg.jpg') no-repeat center bottom;
+    background: #FFF6FF url('../pic/bg.jpg') no-repeat center center;
     font-family: Verdana, SimSun, serif;
     color: #000;
 
@@ -23,11 +23,20 @@ html {
 */
 }
 
-.container {
+.container, .footer {
 	width: 70%;
+    min-width: 760px;
+    max-width: 860px;
+}
+
+.container {
     height: 100%;
 	margin: 0 auto;
-	padding: 0 0 80px 0;    /* bottome padding for footer */
+	padding: 0 0 80px;    /* bottome padding for footer */
+}
+
+.container p {
+    font-size: 0.8em;
 }  
 
 a  {text-decoration: none;}
@@ -35,10 +44,11 @@ a  {text-decoration: none;}
 #header {
     color: #000; /* #ca0000 */
     margin: 0;
+    padding: 10px 20px;
 }
 
-h1, #navigation {
-    font-family: Verdana, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif; 
+h1 {
+    font-family: "Monotype Corsiva", Verdana, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif; 
 }
 /**************************************************
  ***   Navigation Bar  ***
@@ -55,16 +65,18 @@ h1, #navigation {
 
 #navigation {
     float: right;
-    padding-bottom: 80px;
+    padding: 0 20px 60px;
+    margin: 10px;
 
+    font-family: Verdana, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif; 
     font-size: 1em;
     word-spacing: 2px;
 }
 
 #navigation a {
     color: white;
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 #navigation a:hover, a:focus {
 /*
@@ -92,17 +104,22 @@ h1, #navigation {
  **************************************************/
 .content{
     padding-top: 20px;
-    padding-bottom: 80px; /*重要！给footer预留的空间*/
+    padding-bottom: 60px; /*重要！给footer预留的空间*/
     
-    width: 640px;
-    max-width: 100%;
+    width: 680px;
+    max-width: 75%;
     float: left;
-    margin-right: 20px;
 }  
 
 .article {
-    font-size: 0.8em;
+    padding: 20px;
+    margin-left: 5px;
     background: rgba(255, 240, 240, 0.5);
+}
+
+#soon {
+    margin-left: 0;
+    background: transparent;
 }
 /**************************************************
  ***   Footer   ***
@@ -111,13 +128,13 @@ h1, #navigation {
 {
     position: absolute; /* to body, which is the nearest "relative" */
     bottom: 0;
-    height: 80px;          /*footer的高度一定要是固定值*/
-
-    width: 80%;
+    height: 60px;          /*footer的高度一定要是固定值*/
 
     color: white;
     font-size: 0.8em;
 /*
+    width: 860px;
+
     font-weight: lighter;
     background-color: black;
 */
@@ -125,7 +142,9 @@ h1, #navigation {
 
 .footer  a {
     color: white;
-    text-shadow: 1px 1px 1px black;}
+/*
+    text-shadow: 1px 1px 1px black;
+*/
 }
 
 .footer a:hover, a:focus {
@@ -134,6 +153,7 @@ h1, #navigation {
 
 .footer ul {
     float: right;
+    padding-right: 20px;
 }
 .footer li {
     display: inline;
