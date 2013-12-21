@@ -1,8 +1,9 @@
 ﻿TODO:
 
     實現 php 從 xml 中讀取內容
-    前端 content div
-    bg picture resize
+    news page & article css
+    album page & css
+    links
 
 ############################################################
 
@@ -53,6 +54,7 @@ OAuth登錄：
 
 SEO:
     sitemap.xml
+    https://developers.google.com/webmasters/
 
 
 統計分析 http://www.google.com/analytics/
@@ -67,8 +69,8 @@ content div
 bg image size and position
 footer bg color, or use shadow
 
-!important
-Issue for MOBILE optimizition
+
+### MOBILE optimizition ###
 
     detect user-agent
     detect screen size of mobile device
