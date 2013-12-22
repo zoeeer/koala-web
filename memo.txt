@@ -1,8 +1,7 @@
 ﻿TODO:
 
-    實現 php 從 xml 中讀取內容
+    實現 php 從 xml 中讀取內容 (album)
     news page & article css
-    album page & css
     links
 
 ############################################################

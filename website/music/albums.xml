@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection>
+  <albums lang="zht">
+    <album>
+      <title>擁抱你</title>
+      <date>2013/10/09</date>
+      <artist>劉思涵</artist>
+      <company>種子音樂</company>
+      <description>站在人生的十字路口 夢想 是唯一的方向 張開雙手 擁抱當下 擁抱愛情</description>
+      <link rel="cover">http://liusihan-koala.com/music/images/emb_zht_200.jpg</link>
+      <link rel="itunes">https://itunes.apple.com/tw/album/yong-bao-ni/id720662745</link>
+      <link rel="buy">https://www.5music.com.tw/CDList-C.asp?cdno=434465679415</link>
+    </album>
+    <album>
+      <title>不想醒</title>
+      <date>2013/08/06</date>
+      <artist>劉思涵</artist>
+      <company>種子音樂</company>
+      <description>這世界上 沒有做不起的夢 只有太早醒的人</description>
+      <link rel="cover">http://liusihan-koala.com/music/images/keep_zht_200.jpg</link>
+      <link rel="itunes">https://itunes.apple.com/tw/album/bu-xiang-xing-single/id704186496</link>
+    </album>
+    <album>
+      <title>走在冷風中</title>
+      <date>2012/01/09</date>
+      <artist>劉思涵</artist>
+      <company>種子音樂</company>
+      <description>收錄於《花開的聲音》花兒朵朵2011全國十強合集</description>
+      <link rel="cover">http://liusihan-koala.com/music/images/cold_zh_200.jpg</link>
+      <link rel="itunes">https://itunes.apple.com/tw/album/walking-in-the-cold/id720662745?i=720662882</link>
+    </album>
+  </albums>
+
+  <albums lang="zhs">
+    <album>
+      <title>拥抱你</title>
+      <date>2013/10/09</date>
+      <artist>刘思涵</artist>
+      <company>种子音乐</company>
+      <description>站在人生的十字路口 梦想 是唯一的方向 张开双手 拥抱当下 拥抱爱情</description>
+      <link rel="cover">http://liusihan-koala.com/music/images/emb_zhs_200.jpg</link>
+      <link rel="itunes">https://itunes.apple.com/us/album/yong-bao-ni/id720662745</link>
+      <link rel="buy">http://item.jd.com/20078457.html</link>
+    </album>
+    <album>
+      <title>不想醒</title>
+      <date>2013/08/06</date>
+      <artist>刘思涵</artist>
+      <company>种子音乐</company>
+      <description>这世界上 没有做不起的梦 只有太早醒的人</description>
+      <link rel="cover">http://liusihan-koala.com/music/images/keep_zhs_200.jpg</link>
+      <link rel="itunes">https://itunes.apple.com/us/album/bu-xiang-xing-single/id704186496</link>
+    </album>
+    <album>
+      <title>走在冷风中</title>
+      <date>2012/01/09</date>
+      <artist>刘思涵</artist>
+      <company>种子音乐</company>
+      <description>收录于《花开的声音》花儿朵朵2011全国十强合集</description>
+      <link rel="cover">http://liusihan-koala.com/music/images/cold_zh_200.jpg</link>
+      <link rel="itunes">https://itunes.apple.com/us/album/walking-in-the-cold/id720662745?i=720662882</link>
+    </album>
+  </albums>
+</collection>

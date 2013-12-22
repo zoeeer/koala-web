@@ -1,0 +1,22 @@
+/**************************************************
+ ***   Album   ***
+ **************************************************/
+.album div.cover {
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.album div.desc {
+    height: 150px;
+    min-height: 150px;
+}
+
+.album .title {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.album p.desc {
+    margin-top: 2em;
+}
