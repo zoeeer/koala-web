@@ -20,3 +20,13 @@
 .album p.desc {
     margin-top: 2em;
 }
+
+.album a {
+    float: left;
+    font-size: 0.6em;
+    background-color: #DC143C;
+    color: white;
+    padding: 0 1px;
+    border: 2px outset #DC143C;
+    margin-right: 2px;
+}
